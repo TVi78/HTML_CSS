@@ -1,0 +1,57 @@
+* {
+	box-sizing: content-box;
+}
+
+body {
+	margin: 80px 250px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu {
+	color: cornflowerblue;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.head1 {
+	color: #222222;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.text {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7d7987;
+	text-align: justify;
+}
+
+.head2 {
+	color: coral;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 80px;
+}
+
+.index {
+	background-image: url("img/sheet.png");
+}
+
+#welcome {
+	height: 350px;
+	position: center;
+}
+
+.eda {
+	width: 200px;
+	object-position: 20%;
+	margin-left: 200px;
+	border-radius: 5%;
+}
