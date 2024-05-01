@@ -16,7 +16,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	/* text-decoration: none; */
+	text-decoration: none;
 }
 
 body {
@@ -43,11 +43,19 @@ img {
 	margin-bottom: 84px;
 }
 
+.header_title {
+	display: flex;
+	justify-content: space-between;
+}
+
 .navigation {
 	font-family: "gilroy-semibold";
 	font-size: 14px;
 	padding: 10px 10px;
-	/* padding-right: 14px; */
+	max-width: 577px;
+	display: flex;
+	justify-content: space-between;
+	gap: 14px;
 }
 
 .home {
@@ -56,7 +64,6 @@ img {
 
 .about {
 	font-family: "gilroy-bold";
-	text-shadow: #000000 0px 4px 4px;
 }
 
 .main {
@@ -64,10 +71,13 @@ img {
 }
 
 .mainContent {
+	display: flex;
+	justify-content: space-between;
 }
 
 .mainContent__leftSide {
 	font-family: "gilroy-medium";
+	max-width: 556px;
 }
 
 .mainContent__leftSide h1 {
@@ -75,7 +85,6 @@ img {
 	font-weight: 700;
 	line-height: 120%;
 	margin-bottom: 20px;
-	/* text-shadow: #000000 0px 4px 4px; */
 	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -84,11 +93,13 @@ img {
 	line-height: 140%;
 	margin-bottom: 32px;
 	color: #888;
-	/* text-shadow: #000000 0px 4px 4px; */
 	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mainContent__leftSide-btnList {
+	display: flex;
+	/* gap: 10px; */
+	align-items: center;
 }
 
 .mainContent__leftSide-btnList button {
@@ -115,4 +126,6 @@ img {
 .logos {
 	padding-top: 100px;
 	padding-bottom: 100px;
+	display: flex;
+	justify-content: space-around;
 }
