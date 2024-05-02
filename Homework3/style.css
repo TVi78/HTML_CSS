@@ -52,10 +52,10 @@ img {
 	font-family: "gilroy-semibold";
 	font-size: 14px;
 	padding: 10px 10px;
-	max-width: 577px;
+	width: 533px;
 	display: flex;
 	justify-content: space-between;
-	gap: 14px;
+	align-items: center;
 }
 
 .home {
