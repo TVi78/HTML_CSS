@@ -40,7 +40,7 @@ button {
 .navigation {
 	display: flex;
 	justify-content: center;
-	gap: 40px;
+	gap: 32px;
 }
 
 .navigation a {
@@ -135,4 +135,53 @@ button {
 	font-size: 25px;
 	font-weight: 700px;
 	line-height: 160%;
+}
+
+.card p {
+	opacity: 0.7;
+	font-size: 16px;
+	line-height: 160%;
+}
+
+@media (min-width: 848px) and (max-width: 1146px) {
+	.container {
+		max-width: 768px;
+	}
+
+	.mainContent {
+		flex-direction: column;
+		align-items: center;
+		gap: 128px;
+	}
+
+	.mainContent__leftSide h1 {
+		font-size: 48px;
+	}
+
+	.mainContent__leftSide h2 {
+		font-size: 16px;
+	}
+
+	.logos {
+		justify-content: center;
+		gap: 32px;
+		flex-wrap: wrap;
+		max-width: 550px;
+	}
+
+	.cardList {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, 1fr);
+		gap: 32px;
+		justify-items: center;
+	}
+
+	.hideCard {
+		display: none;
+	}
+
+	.card {
+		max-width: 362px;
+		border-color: #101825;
+	}
 }

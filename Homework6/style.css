@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	font-family: "Lato", sans-serif;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 75px;
+	background: #222222;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.navigation {
+	/* padding: 39px 0; */
+	display: flex;
+	justify-content: space-between;
+	padding-top: 18px;
+	padding-bottom: 19px;
+}
+
+.header_left {
+	display: flex;
+	gap: 41px;
+}
+
+.header_right {
+	display: flex;
+	gap: 33px;
+}
+
+.button_header {
+	align-items: center;
+	background: none;
+}
+
+.main {
+}
+
+.top {
+	display: flex;
+	max-width: 1600px;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0 auto;
+	background: #f1e4e6;
+	text-transform: uppercase;
+}
+
+.main_right {
+	width: 405px;
+	line-height: 38.4px;
+	padding: 0 16px;
+	border-left: #f16d7f 12px solid;
+	margin-left: 64px;
+}
+
+.main_right h1 {
+	font-size: 48px;
+	font-weight: 900px;
+}
+
+.main_right h2 {
+	font-size: 32px;
+	font-weight: 700px;
+}
+
+.fashion {
+	color: #f16d7f;
+}
+
+.type {
+	margin-top: 65px;
+	margin-bottom: 96px;
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+}
+
+.img_type1 {
+	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_1.png") center no-repeat;
+	height: 260px;
+	width: 360px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.img_type2 {
+	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_2.png") center no-repeat;
+	height: 260px;
+	width: 360px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.img_type3 {
+	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_3.png") center no-repeat;
+	height: 260px;
+	width: 360px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.img_type4 {
+	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_4.png") center no-repeat;
+	height: 180px;
+	width: 1140px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.type h2 {
+	color: #ffffff;
+	width: 160px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19.2px;
+}
+
+.type h1 {
+	color: #f16d7f;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.8px;
+}
+
+.items {
+	margin-bottom: 60px;
+	text-align: center;
+	font-weight: 400;
+}
+
+.items_title {
+	text-align: center;
+	margin-bottom: 48px;
+}
+
+.items_title h1 {
+	font-size: 30px;
+	line-height: 36px;
+	margin-bottom: 6px;
+	font-weight: 400;
+}
+
+.items_title h2 {
+	color: #9f9f9f;
+	font-size: 14px;
+	line-height: 16.8px;
+	font-weight: 400;
+}
+
+.items_cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 25px 30px;
+	margin-bottom: 48px;
+	text-align: left;
+}
+
+.items_cards h1 {
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 15.6px;
+	padding-top: 25px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	font-weight: 400;
+}
+
+.items_cards h2 {
+	font-size: 14px;
+	color: #5d5d5d;
+	line-height: 16.8px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	font-weight: 300;
+	max-width: 315px;
+}
+
+.items_cards p {
+	color: #f16d7f;
+	font-size: 16px;
+	line-height: 19.2px;
+	padding-bottom: 24px;
+	padding-left: 16px;
+}
+
+.items_card1 {
+	background-color: #f8f8f8;
+}
+.items_card2 {
+	background-color: #f8f8f8;
+}
+.items_card3 {
+	background-color: #f8f8f8;
+}
+.items_card4 {
+	background-color: #f8f8f8;
+}
+.items_card5 {
+	background-color: #f8f8f8;
+}
+.items_card6 {
+	background-color: #f8f8f8;
+}
+
+.item_all {
+	color: #f26376;
+	padding-top: 15px;
+	padding-bottom: 14px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 19.2px;
+	font-weight: 400;
+	border: #ff6a6a 1px solid;
+	width: 212px;
+	max-height: 48px;
+	background: none;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: rgb(243, 192, 227);
+}
