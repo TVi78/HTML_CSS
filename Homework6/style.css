@@ -301,7 +301,6 @@ button:hover {
 	.main_right {
 		width: 311px;
 		height: 92px;
-		/* padding: 1px 16px 0px 16px; */
 		margin-left: 39px;
 		margin-bottom: 88px;
 	}
@@ -317,7 +316,6 @@ button:hover {
 	.type_list {
 		margin-bottom: 110px;
 		gap: 19px;
-		flex-wrap: wrap;
 	}
 
 	.img_type1 {
