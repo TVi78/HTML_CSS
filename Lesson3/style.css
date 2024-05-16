@@ -185,3 +185,76 @@ button {
 		border-color: #101825;
 	}
 }
+
+@media (max-width: 847px) {
+	.container {
+		max-width: 343px;
+	}
+
+	.header {
+		padding: 23px 0;
+		margin-bottom: 64px;
+	}
+
+	.navigation {
+		gap: 16px;
+	}
+
+	.navigation a {
+		font-size: 14px;
+	}
+
+	.mainContent {
+		flex-direction: column;
+		align-items: center;
+		gap: 128px;
+	}
+
+	.mainContent__leftSide {
+		max-width: 343px;
+		text-align: center;
+	}
+
+	.mainContent__leftSide h2 {
+		font-size: 14px;
+		margin-bottom: 16px;
+	}
+
+	.mainContent__leftSide h1 {
+		font-size: 28px;
+		margin-bottom: 64px;
+	}
+
+	.mainContent__leftSide p {
+		margin-bottom: 39px;
+		min-width: 343px;
+	}
+
+	.mainContent__leftSide-btnList {
+		gap: 24px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.logos {
+		flex-direction: column;
+		justify-content: center;
+		gap: 32px;
+		align-items: center;
+	}
+
+	.cardList {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, 1fr);
+		gap: 32px;
+		justify-items: center;
+		max-width: 362px;
+	}
+
+	.hideCard {
+		display: none;
+	}
+
+	.card {
+		border-color: #101825;
+	}
+}
