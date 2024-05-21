@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+form {
+	border: 1px solid rgb(16, 8, 9);
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 70px;
+	padding: 30px 70px;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	background-color: rgb(67, 67, 63);
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: aliceblue;
+}
+
+input {
+	padding: 10px 8px;
+	border-radius: 5px;
+	border: none;
+}
+
+form h1,
+h2 {
+	text-align: center;
+	font-weight: 400;
+}
+form h1 {
+	font-weight: 500;
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+input[type="checkbox"]:hover {
+	cursor: pointer;
+}
+
+form p {
+	margin-bottom: 10px;
+}
+
+input[type="range"] {
+	-webkit-appearance: none;
+	height: 3px;
+	/* width: 100%; */
+}
+
+input[type="range"]:hover {
+	cursor: grab;
+}
+
+form label {
+	padding: 0px 10px;
+}
+
+.sendButton {
+	text-align: center;
+}
+
+input[type="submit"] {
+	padding: 12px 35px;
+	color: aliceblue;
+	background: none;
+	border: 1px aliceblue outset;
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+svg {
+	width: 10px;
+	fill: aliceblue;
+}
+
+svg:hover {
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	position: absolute;
+	left: -999999999999px;
+	visibility: hidden;
+}
+
+input[type="checkbox"]:checked ~ svg {
+	fill: rgb(255, 208, 0);
+}
