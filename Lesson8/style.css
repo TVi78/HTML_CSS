@@ -79,16 +79,20 @@ svg {
 	fill: aliceblue;
 }
 
-svg:hover {
+label:hover {
 	cursor: pointer;
 }
 
-input[type="checkbox"] {
+input[type="radio"] {
 	position: absolute;
 	left: -999999999999px;
 	visibility: hidden;
 }
 
-input[type="checkbox"]:checked ~ svg {
+input[type="radio"]:checked ~ svg {
 	fill: rgb(255, 208, 0);
+}
+
+input[type="radio"]:checked ~ span {
+	color: rgb(255, 208, 0);
 }
