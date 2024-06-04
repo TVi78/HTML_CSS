@@ -170,7 +170,7 @@ img {
 }
 
 .img_type1 {
-	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_1.png") center no-repeat;
+	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_1.webp") center no-repeat;
 	height: 260px;
 	width: 360px;
 	display: flex;
@@ -182,7 +182,7 @@ img {
 }
 
 .img_type2 {
-	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_2.png") center no-repeat;
+	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_2.webp") center no-repeat;
 	height: 260px;
 	width: 360px;
 	display: flex;
@@ -194,7 +194,7 @@ img {
 }
 
 .img_type3 {
-	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_3.png") center no-repeat;
+	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_3.webp") center no-repeat;
 	height: 260px;
 	width: 360px;
 	display: flex;
@@ -206,7 +206,7 @@ img {
 }
 
 .img_type4 {
-	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_4.png") center no-repeat;
+	background: linear-gradient(rgba(33, 23, 23, 0.7), rgba(33, 23, 23, 0.7)), url("img/grid1_4.webp") center no-repeat;
 	height: 180px;
 	width: 1140px;
 	display: flex;
