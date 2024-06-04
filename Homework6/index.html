@@ -3,10 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Современный магазин одежды" />
 		<link rel="stylesheet" href="style.css" />
 		<title>Shop</title>
 	</head>
 	<body>
+		<h2 style="display: none">Магазин</h2>
 		<header class="header">
 			<nav class="navigation container">
 				<div class="header_left">
@@ -14,7 +16,7 @@
 					<button class="button_header"><img src="img/look.svg" alt="search" /></button>
 				</div>
 				<div class="header_right">
-					<button class="button_header"><img src="img/list.svg" alt="menu" /></button>
+					<button class="button_header burger"><img src="img/list.svg" alt="menu" /></button>
 					<button class="button_header login"><img src="img/log.svg" alt="login" /></button>
 					<button class="button_header basket"><img src="img/basket.svg" alt="basket" /></button>
 				</div>
@@ -29,26 +31,36 @@
 					<h2>THE BRAND</h2>
 					<h3>OF LUXERIOUS <span class="fashion">FASHION</span></h3>
 				</div>
-				<div class="menu">
-					<h2>MENU</h2>
-					<h3>MAN</h3>
-					<h4>Accessories</h4>
-					<h4>Bags</h4>
-					<h4>Denim</h4>
-					<h4>T-Shirts</h4>
-					<h3>WOMAN</h3>
-					<h4>Accessories</h4>
-					<h4>Jackets & Coats</h4>
-					<h4>Polos</h4>
-					<h4>T-Shirts</h4>
-					<h4>Shirts</h4>
-					<h3>KIDS</h3>
-					<h4>Accessories</h4>
-					<h4>Jackets & Coats</h4>
-					<h4>Polos</h4>
-					<h4>T-Shirts</h4>
-					<h4>Shirts</h4>
-					<h4>Bags</h4>
+				<div class="menu-active hidden">
+					<div class="menu">
+						<button class="menu-close">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+								<!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+								<path
+									d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+								/>
+							</svg>
+						</button>
+						<h2>MENU</h2>
+						<h3>MAN</h3>
+						<h4>Accessories</h4>
+						<h4>Bags</h4>
+						<h4>Denim</h4>
+						<h4>T-Shirts</h4>
+						<h3>WOMAN</h3>
+						<h4>Accessories</h4>
+						<h4>Jackets &amp; Coats</h4>
+						<h4>Polos</h4>
+						<h4>T-Shirts</h4>
+						<h4>Shirts</h4>
+						<h3>KIDS</h3>
+						<h4>Accessories</h4>
+						<h4>Jackets &amp; Coats</h4>
+						<h4>Polos</h4>
+						<h4>T-Shirts</h4>
+						<h4>Shirts</h4>
+						<h4>Bags</h4>
+					</div>
 				</div>
 			</section>
 			<section class="type_list container">
@@ -65,7 +77,7 @@
 					<h2>FOR KIDS</h2>
 				</div>
 				<div class="img_type4">
-					<h3>LUXIROUS & TRENDY</h3>
+					<h3>LUXIROUS &amp; TRENDY</h3>
 					<h2>ACCESORIES</h2>
 				</div>
 			</section>
@@ -77,7 +89,7 @@
 				<div class="items_cards">
 					<div class="items_card1">
 						<div class="choice">
-							<button class="button_choice"><div>Add to Cart</div></button>
+							<button class="button_choice"><span>Add</span> to Cart</button>
 						</div>
 						<img src="img/grid2_1.png" alt="picture_1" class="img_type" />
 						<h2>ELLERY X M'O CAPSULE</h2>
@@ -85,11 +97,11 @@
 							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
 							with Moda Operandi.
 						</h3>
-						<p>$52.00</p>
+						<h4>$52.00</h4>
 					</div>
 					<div class="items_card2">
 						<div class="choice">
-							<button class="button_choice"><div>Add to Cart</div></button>
+							<button class="button_choice"><span>Add</span> to Cart</button>
 						</div>
 						<img src="img/grid2_2.png" alt="picture_2" class="img_type" />
 						<h2>ELLERY X M'O CAPSULE</h2>
@@ -97,11 +109,11 @@
 							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
 							with Moda Operandi.
 						</h3>
-						<p>$52.00</p>
+						<h4>$52.00</h4>
 					</div>
 					<div class="items_card3">
 						<div class="choice">
-							<button class="button_choice"><div>Add to Cart</div></button>
+							<button class="button_choice"><span>Add</span>to Cart</button>
 						</div>
 						<img src="img/grid2_3.png" alt="picture_3" class="img_type" />
 						<h2>ELLERY X M'O CAPSULE</h2>
@@ -109,11 +121,11 @@
 							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
 							with Moda Operandi.
 						</h3>
-						<p>$52.00</p>
+						<h4>$52.00</h4>
 					</div>
 					<div class="items_card4">
 						<div class="choice">
-							<button class="button_choice"><div>Add to Cart</div></button>
+							<button class="button_choice"><span>Add</span> to Cart</button>
 						</div>
 						<img src="img/grid2_4.png" alt="picture_4" class="img_type" />
 						<h2>ELLERY X M'O CAPSULE</h2>
@@ -121,11 +133,11 @@
 							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
 							with Moda Operandi.
 						</h3>
-						<p>$52.00</p>
+						<h4>$52.00</h4>
 					</div>
 					<div class="items_card5">
 						<div class="choice">
-							<button class="button_choice"><div>Add to Cart</div></button>
+							<button class="button_choice"><span>Add</span> to Cart</button>
 						</div>
 						<img src="img/grid2_5.png" alt="picture_5" class="img_type" />
 						<h2>ELLERY X M'O CAPSULE</h2>
@@ -133,11 +145,11 @@
 							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
 							with Moda Operandi.
 						</h3>
-						<p>$52.00</p>
+						<h4>$52.00</h4>
 					</div>
 					<div class="items_card6">
 						<div class="choice">
-							<button class="button_choice"><div>Add to Cart</div></button>
+							<button class="button_choice"><span>Add</span> to Cart</button>
 						</div>
 						<img src="img/grid2_6.png" alt="picture_6" class="img_type" />
 						<h2>ELLERY X M'O CAPSULE</h2>
@@ -145,7 +157,7 @@
 							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
 							with Moda Operandi.
 						</h3>
-						<p>$52.00</p>
+						<h4>$52.00</h4>
 					</div>
 				</div>
 				<button class="button_brouseAll">Browse All Product</button>
@@ -159,7 +171,7 @@
 					</div>
 					<div class="benefit_2">
 						<p class="benefits_img"><img src="img/discount.svg" alt="discount" /></p>
-						<h2>Sales & discounts</h2>
+						<h2>Sales &amp; discounts</h2>
 						<h3>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h3>
 					</div>
 					<div class="benefit_3">
@@ -219,5 +231,6 @@
 				</svg>
 			</address>
 		</footer>
+		<script src="./script.js"></script>
 	</body>
 </html>

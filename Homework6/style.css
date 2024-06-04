@@ -72,9 +72,6 @@ img {
 	right: -8px;
 }
 
-.main {
-}
-
 .top {
 	display: flex;
 	max-width: 1600px;
@@ -95,6 +92,18 @@ img {
 	background-color: #ffffff;
 	padding-top: 32px;
 	padding-left: 33px;
+}
+
+.menu-close svg {
+	width: 20px;
+	fill: red;
+	position: absolute;
+	top: 5px;
+	right: 25px;
+}
+
+.hidden {
+	display: none;
 }
 
 .menu h2 {
@@ -138,12 +147,12 @@ img {
 
 .main_right h2 {
 	font-size: 48px;
-	font-weight: 900px;
+	font-weight: 900;
 }
 
 .main_right h3 {
 	font-size: 32px;
-	font-weight: 700px;
+	font-weight: 700;
 }
 
 .fashion {
@@ -276,7 +285,7 @@ img {
 	max-width: 315px;
 }
 
-.items_cards p {
+.items_cards h4 {
 	color: #f16d7f;
 	font-size: 16px;
 	line-height: 19.2px;
@@ -309,15 +318,15 @@ img {
 	margin-left: 111px;
 }
 
-.button_choice div {
+.button_choice span {
 	position: relative;
 }
 
-.button_choice div::before {
+.button_choice span::before {
 	content: url("img/basket_card.svg");
 	position: absolute;
 	top: -5px;
-	left: -15px;
+	left: -35px;
 }
 
 .items_card1 {
@@ -547,7 +556,7 @@ button:hover {
 	}
 
 	.navigation {
-		gap: 424px;
+		gap: 400px;
 	}
 
 	.header_left {
@@ -555,16 +564,14 @@ button:hover {
 	}
 
 	.header_right {
+		gap: 40px;
 		padding-top: 19px;
-		padding-bottom: 18px;
+		padding-bottom: 15px;
+		padding-right: 15px;
 	}
 
 	.top {
 		max-width: 768px;
-	}
-
-	.menu {
-		display: none;
 	}
 
 	.main_left {
@@ -576,7 +583,7 @@ button:hover {
 		width: 311px;
 		height: 92px;
 		margin-left: 39px;
-		margin-bottom: 88px;
+		margin-bottom: 0;
 	}
 
 	.main_right h2 {
@@ -617,7 +624,7 @@ button:hover {
 	}
 
 	.items {
-		margin-bottom: 70px;
+		margin-bottom: 64.5px;
 	}
 
 	.items_title {
@@ -633,28 +640,26 @@ button:hover {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, 1fr);
 		gap: 16px;
-		margin-bottom: 32px;
+		margin-bottom: 38px;
 	}
 
 	.benefits-block {
 		max-width: 768px;
+		height: 610px;
 		justify-content: center;
 	}
 
 	.benefits {
 		flex-direction: column;
 		justify-content: center;
-		gap: 48px;
-		padding-top: 48px;
-		padding-bottom: 64px;
+		gap: 45px;
+		padding: 48px 0 64px 0;
 	}
 
 	.subscribe {
 		max-width: 768px;
 		height: 614px;
-		/* background-size: cover;
-		margin: 0 auto;
-		display: flex; */
+		background: url(img/subscribe_fon_planshet);
 		flex-direction: column;
 		gap: 48px;
 	}
@@ -670,6 +675,14 @@ button:hover {
 
 	.subscribe_inputButton {
 		margin-top: 27px;
+	}
+
+	.subscribe_inputButton input {
+		width: 230px;
+	}
+
+	.subscribe_inputButton button {
+		width: 100px;
 	}
 
 	.subscribe h2 {
@@ -721,10 +734,6 @@ button:hover {
 	.top {
 		height: 363px;
 		max-width: 375px;
-	}
-
-	.menu {
-		display: none;
 	}
 
 	.main_left {
@@ -798,6 +807,10 @@ button:hover {
 		margin-bottom: 40px;
 	}
 
+	.items_card1 {
+		height: 580px;
+	}
+
 	.benefits-block {
 		max-width: 375px;
 		justify-content: center;
@@ -807,16 +820,13 @@ button:hover {
 		flex-direction: column;
 		justify-content: center;
 		gap: 47px;
-		padding-top: 48px;
-		padding-bottom: 81px;
+		padding: 48px 0 81px 0;
 	}
 
 	.subscribe {
 		max-width: 375px;
 		height: 550px;
-		/* background: url(img/subscribe_fon.jpg);
-		background-size: cover;
-		margin: 0 auto; */
+		background: url(img/subscribe_fon_planshet);
 		flex-direction: column;
 		gap: 59px;
 	}
