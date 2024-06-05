@@ -156,7 +156,7 @@ img {
 }
 
 .fashion {
-	color: #f16d7f;
+	color: #d03046;
 }
 
 .type_list {
@@ -250,7 +250,7 @@ img {
 }
 
 .items_title h2 {
-	color: #9f9f9f;
+	color: #6a6767;
 	font-size: 14px;
 	line-height: 16.8px;
 	font-weight: 400;
@@ -286,7 +286,7 @@ img {
 }
 
 .items_cards h4 {
-	color: #f16d7f;
+	color: #c04354;
 	font-size: 16px;
 	line-height: 19.2px;
 	padding-bottom: 20px;
@@ -378,14 +378,14 @@ img {
 }
 
 .button_brouseAll {
-	color: #f26376;
+	color: #ca3f52;
 	padding-top: 15px;
 	padding-bottom: 14px;
 	text-align: center;
 	font-size: 16px;
 	line-height: 19.2px;
 	font-weight: 400;
-	border: #ff6a6a 1px solid;
+	border: #ca3f52 1px solid;
 	width: 212px;
 	max-height: 48px;
 	background: none;
@@ -396,7 +396,7 @@ button:hover {
 }
 
 .button_brouseAll:hover {
-	background-color: #ff6a6a;
+	background-color: #ca3f52;
 	color: #ffffff;
 }
 
